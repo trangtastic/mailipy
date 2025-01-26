@@ -37,7 +37,7 @@ Once you created the emails, run the following command (changing the outbox
 directory accordingly):
 
     $ mailipy-send securesmtp.t-online.de:465 john.doe@magenta.de outbox
-    $ mailipy-send smtp.gmail.come:465 john.doe@gmail.com outbox
+    $ mailipy-send smtp.gmail.com:465 john.doe@gmail.com outbox
 
 The command will inform you of how many emails are going to be sent, and then
 will prompt you for a password.
