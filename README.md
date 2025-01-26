@@ -9,7 +9,9 @@ easier.
 
 ## Installation
 
-    $ pip install mailipy
+    $ python3 -m venv path/to/venv
+    $ source path/to/venv/bin/activate
+    $ python3 -m pip install mailipy
 
 In order to send emails, you need to first **generate** them and later **send**
 them.
@@ -34,7 +36,8 @@ change the outbox destination folder.
 Once you created the emails, run the following command (changing the outbox
 directory accordingly):
 
-    $ mailipy-send mail.example.com:528 my_username outbox
+    $ mailipy-send securesmtp.t-online.de:465 john.doe@magenta.de outbox
+    $ mailipy-send smtp.gmail.come:465 john.doe@gmail.com outbox
 
 The command will inform you of how many emails are going to be sent, and then
 will prompt you for a password.
